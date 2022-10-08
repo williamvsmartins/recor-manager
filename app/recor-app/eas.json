@@ -1,0 +1,25 @@
+{
+  "cli": {
+    "version": ">= 2.1.0"
+  },
+  "build": {
+    "development": {
+      "developmentClient": true,
+      "distribution": "internal"
+    },
+    "preview": {
+      "distribution": "internal",
+      "android": {
+        "buildType": "apk"
+      }
+    },
+    "production": {
+      "env": {
+        "API_URL": "https://api.production.com"
+      }
+    }
+  },
+  "submit": {
+    "production": {}
+  }
+}

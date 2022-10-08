@@ -1,0 +1,120 @@
+
+.sala {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.btn-add p {
+  align-items: center;
+  font-size: 3.0rem;
+  font-weight: 900;
+  position: fixed;
+  z-index:999; 
+  right: 40px;
+  bottom: 10px;
+  width: 80px;
+  height: 80px;
+  background: #23d160;
+  border-radius: 50%;
+  box-shadow: 2px 2px 6px rgb(0 0 0 / 40%);
+  color: #fff;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.btn-add p:hover {
+  background-color: #9466ff;
+  color: #fff;
+  width: 80px;
+  height: 80px;
+  border-radius: 4px;
+}
+
+.card {
+  background-color: none;
+  border-radius: 5px;
+  box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
+  padding: 30px;
+  margin: 20px;
+  width: 300px;
+  transition: all 0.3s ease-out;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+
+}
+ 
+.card p {
+  color: #fff;
+  font-size: 16px;
+}
+ 
+.green {
+  border-left: 3px solid #9466ff;
+}
+
+.btn {
+  border: none;
+  color: white;
+  padding: 5px 8px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 5px;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.btn-edit {
+  background-color: #23d160;
+  margin-bottom: 15px;
+  transition: 1s;
+}
+
+.btn-edit:hover {
+  opacity: 0.5;
+}
+
+.btn-delete {
+  transition: 1s;
+  background-color: #f44336;
+}
+
+.btn-delete:hover {
+  opacity: 0.5;
+}
+
+.btn-view {
+  background-color: #b6b6b6;
+  color: black;
+  transition: 1s;
+}
+
+.btn-view:hover {
+  opacity: 0.5;
+}
+
+
+label {
+  display: flex;
+  text-align: left;
+  color: #dddddd;
+}
+/*Botão Adicionar sala*/
+
+
+
+
+
+
+.btn-add p.active {
+  padding: 12px 23px;
+  background-color: #9466ff;
+  border: 1px solid #121214;
+  color: #fff;
+  border-radius: 4px;
+}
+
