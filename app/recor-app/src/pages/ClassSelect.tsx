@@ -53,7 +53,7 @@ export function ClassSelect() {
         <View style={styles.container}>
             <View style={styles.header}>
                 <Header 
-                    title="Olá"
+                    title="Olá,"
                     name={user?.name}
                 />
 

@@ -1,0 +1,42 @@
+{
+  "name": "Recor - Registrador de frequência",
+  "version": "1.0",
+  "homepage": "",
+  "author": "William Valther <williamvsmartins@gmail.com> ()",
+  "description": "Registrador de frequência escolar utilizando NodeMCU, RFID, MQTT e Banco de Dados MySQL",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WillProg/recor"
+  },
+  "license": "MIT",
+  "keywords": [
+    "nodemcu",
+    "rfid",
+    "python",
+    "nodejs",
+    "web-app",
+    "mysql",
+    "mqtt",
+    "websockets",
+    "api",
+    "docker"
+  ],
+  "scripts": {
+    "start": "node index",
+    "dev": "nodemon index"
+  },
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "cors": "^2.8.3",
+    "dotenv": "^4.0.0",
+    "express": "^4.15.3",
+    "mqtt": "^2.8.0",
+    "mysql": "^2.13.0",
+    "mysql2": "^2.3.3",
+    "node-schedule": "^2.1.0",
+    "promise": "^7.1.1",
+    "request": "^2.81.0",
+    "request-promise": "^4.2.1"
+  }
+}
