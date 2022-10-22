@@ -14,10 +14,10 @@ LiquidCrystal_I2C lcd(0x3F, 16, 2); //FUNÇÃO DO TIPO "LiquidCrystal_I2C"
 #define SS_PIN D4
 
 // VARIABLES
-const char* SSID = "POCO X3 Pro"; // rede wifi
-const char* PASSWORD = "will1234"; // senha da rede wifi
+const char* SSID = ""; // rede wifi
+const char* PASSWORD = ""; // senha da rede wifi
 
-const char* BROKER_MQTT = "ec2-54-233-137-88.sa-east-1.compute.amazonaws.com"; // ip/host do broker
+const char* BROKER_MQTT = ""; // ip/host do broker
 int BROKER_PORT = 1883; // porta do broker
 
 const char* TOPIC_PING = "ping";
