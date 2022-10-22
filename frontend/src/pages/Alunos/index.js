@@ -35,7 +35,7 @@ const Alunos = () => {
         <thead>
           <tr>
             <th>N° aluno</th>
-            <th>Name</th>
+            <th>Nome</th>
             <th>Matrícula</th>
             <th>Tag</th>
             <th>Action</th>

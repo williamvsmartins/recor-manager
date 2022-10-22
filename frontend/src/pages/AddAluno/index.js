@@ -55,7 +55,7 @@ const AddAluno = () => {
   return (
     <div className="add-edit">
       <form className="add-edit__form" onSubmit={handleSubmit}>
-        <label htmlFor="name">Name:</label>
+        <label htmlFor="name">Nome:</label>
         <input
           type="text"
           id="name"
@@ -91,7 +91,7 @@ const AddAluno = () => {
           defaultValue={id || ""}
         />
 
-        <input type="submit" value={"Save"} />
+        <input type="submit" value={"Salvar"} />
       </form>
     </div>
   );

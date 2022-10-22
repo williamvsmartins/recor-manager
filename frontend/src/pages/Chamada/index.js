@@ -20,6 +20,7 @@ const Chamada = () => {
         .then((response) => {
           var filtrado = response.filter(function(obj) { return obj.id_disciplina == id; });//mostra apenas os registro da matéria selecionada
           setinfo(filtrado)
+          console.log(filtrado)
 
         })
         console.log(date)
@@ -63,9 +64,7 @@ const Chamada = () => {
         <thead>
           <tr>
             <th>N° aluno</th>
-            <th>Name</th>
-            <th>Matrícula</th>
-            <th>Tag</th>
+            <th>Nome</th>
             <th>Action</th>
           </tr>
         </thead>
@@ -74,15 +73,14 @@ const Chamada = () => {
               <tr key={aluno.id}>
                 <th scope="row">{aluno.id}</th>
                 <td>{aluno.name}</td>
-                <td>{aluno.matr}</td>
-                <td>{aluno.tag}</td>
+
                 <td>
 
                   <button
                     className="btn btn-delete"
                     onClick={() => onDelete(aluno.id)}
                   >
-                    Delete
+                    Apagar
                   </button>
                 </td>
               </tr>

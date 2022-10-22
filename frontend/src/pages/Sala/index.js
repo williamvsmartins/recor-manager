@@ -80,7 +80,7 @@ const Sala = () => {
 
                       onClick={() => onDelete(sala.id)}
                     >
-                      Delete
+                      Apagar
                     </button>
                   
                 </div>

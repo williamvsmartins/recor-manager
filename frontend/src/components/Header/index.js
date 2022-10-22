@@ -30,7 +30,7 @@ const Header = () => {
             className={`${activeTab === "About" ? "active" : ""}`}
             onClick={() => setActiveTab("About")}
           >
-            About
+            Sobre
           </p>
         </Link>
       </div>

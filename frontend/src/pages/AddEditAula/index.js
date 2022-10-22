@@ -96,7 +96,7 @@ const AddEditAula = () => {
           onChange={handleInputChange}
         />
 
-        <input type="submit" value={id ? "Update" : "Save"} />
+        <input type="submit" value={id ? "Update" : "Salvar"} />
       </form>
     </div>
   );
