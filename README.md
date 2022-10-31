@@ -7,13 +7,13 @@
   <a href="https://github.com/WilliamVSMartins/Frequency_register/blob/main/LICENSE">
     <img alt="GitHub license" src="https://img.shields.io/github/license/WilliamVSMartins/Frequency_register?logo=mint&style=flat-square">
   </a>
-  <a href="https://github.com/WilliamVsMartins/Frequency_register/issues?q=is%3Aissue+is%3Aclosed">
+  <a href="https://github.com/WilliamVSMartins/Frequency_register/issues?q=is%3Aissue+is%3Aclosed">
     <img alt="GitHub issues" src="https://badgen.net/github/closed-issues/WilliamVSMartins/Frequency_register?color=29B6D1&style=flat-square">
   </a>
-  <a href="https://github.com/WilliamVsMartins/Frequency_register/network">
+  <a href="https://github.com/WilliamVSMartins/Frequency_register/network">
     <img alt="GitHub forks" src="https://img.shields.io/github/forks/WilliamVSMartins/Frequency_register?color=29B6D1&style=flat-square">
   </a>
-  <a href="https://github.com/WilliamVsMartins/Frequency_register/stargazers">
+  <a href="https://github.com/WilliamVSMartins/Frequency_register/stargazers">
     <img alt="GitHub stars" src="https://img.shields.io/github/stars/WilliamVSMartins/plantmanager-nlw05?color=29B6D1&style=flat-square">
   </a>
 </h1>
