@@ -115,8 +115,24 @@ O fluxo referente ao PING(indicado com a cor amarela) é p fluxo inicial da comu
 
 Logo em seguida, o tópico PONG (indicado com a cor verde), que é responsável pelo retorno, entra em ação, ou seja, se a presença do aluno foi registrada ou simplesmente está sem cadastro. O resultado será um valor booleano (0 ou 1).
 
+## :man: Autor
+
+<a href="https://github.com/WilliamVSMartins/">
+ <img src="https://avatars.githubusercontent.com/u/101011336?s=400&u=c1b332326ef504405ed93988fa670d8bb33e2aba&v=4" width="70px;" alt=""/>
+ <br />
+ <sub><b>William Martins</b></sub>
+</a>
+
+
+Entre em contato!🚀
+
+<a href="https://www.linkedin.com/in/williamvsmartins">
+  <img alt="Linkedin" src="https://img.shields.io/badge/-willliamvsmartins-9871F5?label=Linkedin&logo=linkedin&style=flat-square">
+</a>
+
+
 ## :memo: Licença
-Copyright © 2020 [William Martins](https://github.com/WilliamVSMartins).<br />
+Copyright © 2022 [William Martins](https://github.com/WilliamVSMartins).<br />
 
 Distributed under the **MIT License**.
 ``` 
