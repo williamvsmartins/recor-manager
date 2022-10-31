@@ -46,12 +46,16 @@ Para isso, o professor passaria a utilizar um simples sistema onde a frequência
 ## 🛠 Tecnologias
 Este projeto foi desenvolvido com as seguintes tecnologias
 
-#### Firmare ESP8266
-- [RFID](https://github.com/miguelbalboa/rfid/);
-- [PubSubclient](https://github.com/knolleary/pubsubclient);
-
-#### Firmare ESP8266
+#### App Android / IOS
 - [React Native](https://reactnative.dev/)
 - [Expo](https://expo.io/)
 - [TypeScript](https://www.typescriptlang.org/)
 - [Lottie React Native](https://docs.expo.io/versions/latest/sdk/lottie/)
+- [Axios](https://axios-http.com/ptbr/docs/intro)
+
+#### Firmare ESP8266
+- [RFID](https://github.com/miguelbalboa/rfid/);
+- [PubSubclient](https://github.com/knolleary/pubsubclient);
+- [LiquidCrystal_I2C](https://github.com/fdebrabander/Arduino-LiquidCrystal-I2C-library)
+
+
