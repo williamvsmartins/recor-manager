@@ -26,7 +26,7 @@
   <a href="#art-Layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#clipboard-Funcionalidades">Funcionalidades</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#left_right_arrow-Fluxodoprojeto">Fluxo do projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#left_right_arrow-Fluxo">Fluxo do projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#man-Autor">Autor</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#memo-Licença">Licença</a>
 </p>
@@ -89,7 +89,7 @@ Este projeto foi desenvolvido com as seguintes tecnologias
 - [x] Processa e insere os dados no banco MYSQL.
 - [x] Salva data do registro da frequência.
 
-## :left_right_arrow: Fluxo do projeto
+## :left_right_arrow: Fluxo
 <div align="center">
 <img src="./.github/assets/fluxo.png" />
 </div>
