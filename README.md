@@ -26,7 +26,7 @@
   <a href="#art-Layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#clipboard-Funcionalidades">Funcionalidades</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#closed_book-instalação">Instalação</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#:left_right_arrow: Fluxo do projeto">Fluxo do projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#man-Autor">Autor</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#memo-Licença">Licença</a>
 </p>
@@ -90,6 +90,10 @@ Este projeto foi desenvolvido com as seguintes tecnologias
 - [x] Salva data do registro da frequência.
 
 ## :left_right_arrow: Fluxo do projeto
+<div align="center">
+<img src="./.github/assets/fluxo.png" />
+</div>
+
 No diagrama acima, pode-se observar qual será o fluxo da aplicação que foi desenvolvida. Parece complicado, mas quando você começa entender como se da a comunicação de redes, você tira de letra uma arquitetura dessas.
 
 Basicamente temos 2 fluxos neste projeto - o ping e o pong. Ambos serão abordados abaixo.
