@@ -53,9 +53,59 @@ Este projeto foi desenvolvido com as seguintes tecnologias
 - [Lottie React Native](https://docs.expo.io/versions/latest/sdk/lottie/)
 - [Axios](https://axios-http.com/ptbr/docs/intro)
 
+#### Front-end
+- [React](https://reactjs.org/)
+- [Axios](https://axios-http.com/ptbr/docs/intro)
+
+### Back-end Nodejs
+- [mqttjs](https://github.com/mqttjs/MQTT.js);
+- [promise](https://github.com/then/promise);
+- [request-promise](https://github.com/request/request-promise);
+- [express](https://github.com/expressjs/express);
+- [mysqljs](https://github.com/mysqljs/mysql);
+- [dotenv](https://github.com/motdotla/dotenv);
+
 #### Firmare ESP8266
 - [RFID](https://github.com/miguelbalboa/rfid/);
 - [PubSubclient](https://github.com/knolleary/pubsubclient);
 - [LiquidCrystal_I2C](https://github.com/fdebrabander/Arduino-LiquidCrystal-I2C-library)
+
+## :clipboard: Funcionalidades
+#### App Android / IOS
+- [x] Fazer autenticação com o nome.
+- [x] Visualizar turmas e alunos.
+- [x] Fazer consulta de frequência por data e turma específica.
+
+#### Front-end
+- [x] Criar novas novas turmas e adicionar novos alunos
+- [x] Visualizar turmas e alunos.
+- [x] Fazer consulta de frequência por data e turma específica.
+
+### Back-end Nodejs
+- [x] Recebe dados da placa ESP8266 através do protocolo MQTT.
+- [x] Processa e insere os dados no banco MYSQL.
+- [x] Salva data do registro da frequência.
+
+## :left_right_arrow: Fluxo do projeto
+No diagrama acima, pode-se observar qual será o fluxo da aplicação que foi desenvolvida. Parece complicado, mas quando você começa entender como se da a comunicação de redes, você tira de letra uma arquitetura dessas.
+
+Basicamente temos 2 fluxos neste projeto - o ping e o pong. Ambos serão abordados abaixo.
+
+### Ping
+O fluxo referente ao PING(indicado com a cor amarela) é p fluxo inicial da comunicação. É a partir dele que toda a comunição com começará. Então, as seguintes etapas serão feitas:
+
+- 1º - Leitura do ID da tag RFID;
+
+- 2º - Preparação da (payload) mensagem para envio;
+
+- 3º - Envio da payload através do protocolo MQTT;
+
+- 4º - O servidor back-end estará na escuta do tópico referente;
+
+- 5º - Recebida a payload(que será o ID da tag), será efetuada uma consulta no banco de dados;
+
+- 6º - Depois da tag ser consultada, será feito uma verificação(condicional) se a mesma está ativada ou desativada;
+
+Logo em seguida, o tópico PONG (indicado com a cor verde), que é responsável pelo retorno, entra em ação, ou seja, se a presença do aluno foi registrada ou simplesmente está sem cadastro. O resultado será um valor booleano (0 ou 1).
 
 
