@@ -35,3 +35,19 @@
 O Recor Manager é um sistema feito para facilitar o registro da frequência de alunos em sala. Observando o tempo perdido com chamadas feitas ao início da aula, tempo esse que poderia ser melhor aproveitado pelo professor, pensei em uma solução para que esse registro fosse feito eletronicamente onde o professor possa receber a frequência de forma online.
 
 Para isso, o professor passaria a utilizar um simples sistema onde a frequência de seus alunos são registradas de forma rápida e eficiente.
+
+## :page_facing_up: Materiais utilizados
+
+- ESP8266
+- RFID: Rfid Mfrc522 Mifare
+- Display LCD
+- Buzzer
+
+## 🛠 Tecnologias
+Este projeto foi desenvolvido com as seguintes tecnologias
+
+#### Firmare ESP8266
+- [React Native](https://reactnative.dev/)
+- [Expo](https://expo.io/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Lottie React Native](https://docs.expo.io/versions/latest/sdk/lottie/)
