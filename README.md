@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img width="450px" src="./.github/assets/logo.svg" />
+  <img width="450px" src="./.github/assets/logo.png" />
   <br />
   <a href="https://www.linkedin.com/in/williamvsmartins">
     <img alt="Linkedin" src="https://img.shields.io/badge/-William%20Martins-29B6D1?label=Linkedin&logo=linkedin&style=flat-square">
