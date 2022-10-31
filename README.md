@@ -7,9 +7,6 @@
   <a href="https://github.com/alexandredev3/plantmanager-nlw05/blob/main/.github/LICENSE.txt">
     <img alt="GitHub license" src="https://img.shields.io/github/license/WilliamVSMartins/Frequency_register?logo=mint&style=flat-square">
   </a>
-  <a href="https://github.com/WilliamVsMartins/Frequency_register/issues">
-    <img alt="GitHub issues" src="https://img.shields.io/github/issues/WilliamVSMartins/Frequency_register?color=29B6D1&style=flat-square">
-  </a>
   <a href="https://github.com/WilliamVsMartins/Frequency_register/issues?q=is%3Aissue+is%3Aclosed">
     <img alt="GitHub issues" src="https://badgen.net/github/closed-issues/WilliamVSMartins/Frequency_register?color=29B6D1&style=flat-square">
   </a>
