@@ -43,6 +43,9 @@ Para isso, o professor passaria a utilizar um simples sistema onde a frequência
 - Display LCD
 - Buzzer
 
+## :art: Layout
+<img src="./.github/assets/recor-updated.png" />
+
 ## 🛠 Tecnologias
 Este projeto foi desenvolvido com as seguintes tecnologias
 
