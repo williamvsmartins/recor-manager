@@ -47,6 +47,10 @@ Para isso, o professor passaria a utilizar um simples sistema onde a frequência
 Este projeto foi desenvolvido com as seguintes tecnologias
 
 #### Firmare ESP8266
+- [RFID](https://github.com/miguelbalboa/rfid/);
+- [PubSubclient](https://github.com/knolleary/pubsubclient);
+
+#### Firmare ESP8266
 - [React Native](https://reactnative.dev/)
 - [Expo](https://expo.io/)
 - [TypeScript](https://www.typescriptlang.org/)
