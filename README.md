@@ -4,7 +4,7 @@
   <a href="https://www.linkedin.com/in/williamvsmartins">
     <img alt="Linkedin" src="https://img.shields.io/badge/-William%20Martins-29B6D1?label=Linkedin&logo=linkedin&style=flat-square">
   </a>
-  <a href="https://github.com/alexandredev3/plantmanager-nlw05/blob/main/.github/LICENSE.txt">
+  <a href="https://github.com/WilliamVSMartins/LICENSE">
     <img alt="GitHub license" src="https://img.shields.io/github/license/WilliamVSMartins/Frequency_register?logo=mint&style=flat-square">
   </a>
   <a href="https://github.com/WilliamVsMartins/Frequency_register/issues?q=is%3Aissue+is%3Aclosed">
