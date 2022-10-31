@@ -14,7 +14,7 @@
     <img alt="GitHub forks" src="https://img.shields.io/github/forks/WilliamVSMartins/Frequency_register?color=29B6D1&style=flat-square">
   </a>
   <a href="https://github.com/WilliamVSMartins/Frequency_register/stargazers">
-    <img alt="GitHub stars" src="https://img.shields.io/github/stars/WilliamVSMartins/plantmanager-nlw05?color=29B6D1&style=flat-square">
+    <img alt="GitHub stars" src="https://img.shields.io/github/stars/WilliamVSMartins/Frequency_register?color=29B6D1&style=flat-square">
   </a>
 </h1>
 
