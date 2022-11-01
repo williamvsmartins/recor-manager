@@ -20,6 +20,7 @@
 
 <p align="center">
   <a href="#page_facing_up-descrição">Descrição</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#wrench-Materiais">Materiais utilizados</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#art-Layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#clipboard-Funcionalidades">Funcionalidades</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
@@ -33,7 +34,7 @@ O Recor Manager é um sistema feito para facilitar o registro da frequência de 
 
 Para isso, o professor passaria a utilizar um simples sistema onde a frequência de seus alunos são registradas de forma rápida e eficiente.
 
-## :page_facing_up: Materiais utilizados
+## :wrench: Materiais
 
 - ESP8266
 - RFID: Rfid Mfrc522 Mifare
@@ -95,7 +96,6 @@ No diagrama acima, pode-se observar qual será o fluxo da aplicação que foi de
 
 Basicamente temos 2 fluxos neste projeto - o ping e o pong. Ambos serão abordados abaixo.
 
-### Ping
 O fluxo referente ao PING(indicado com a cor amarela) é p fluxo inicial da comunicação. É a partir dele que toda a comunição com começará. Então, as seguintes etapas serão feitas:
 
 - 1º - Leitura do ID da tag RFID;
