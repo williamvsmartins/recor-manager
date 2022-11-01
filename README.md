@@ -66,7 +66,7 @@ Este projeto foi desenvolvido com as seguintes tecnologias
 - [mysqljs](https://github.com/mysqljs/mysql);
 - [dotenv](https://github.com/motdotla/dotenv);
 
-#### Firmare ESP8266
+#### Firmware ESP8266
 - [RFID](https://github.com/miguelbalboa/rfid/);
 - [PubSubclient](https://github.com/knolleary/pubsubclient);
 - [LiquidCrystal_I2C](https://github.com/fdebrabander/Arduino-LiquidCrystal-I2C-library)
@@ -81,6 +81,12 @@ Este projeto foi desenvolvido com as seguintes tecnologias
 - [x] Criar novas novas turmas e adicionar novos alunos
 - [x] Visualizar turmas e alunos.
 - [x] Fazer consulta de frequência por data e turma específica.
+
+#### Firmware ESP8266
+- [x] Faz a leitura das tags RFID, trata o valor e envia via protocolo MQTT.
+- [x] Mostra mensagem de confirmação/erro que retornam do back-end no Display.
+- [x] Emite som de confirmaçâo/erro.
+- [x] Conecta no WI-Fi.
 
 #### Back-end Nodejs
 - [x] Recebe dados da placa ESP8266 através do protocolo MQTT.
