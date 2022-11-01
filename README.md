@@ -82,7 +82,7 @@ Este projeto foi desenvolvido com as seguintes tecnologias
 - [x] Visualizar turmas e alunos.
 - [x] Fazer consulta de frequência por data e turma específica.
 
-### Back-end Nodejs
+#### Back-end Nodejs
 - [x] Recebe dados da placa ESP8266 através do protocolo MQTT.
 - [x] Processa e insere os dados no banco MYSQL.
 - [x] Salva data do registro da frequência.
