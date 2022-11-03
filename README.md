@@ -102,7 +102,7 @@ No diagrama acima, pode-se observar qual será o fluxo da aplicação que foi de
 
 Basicamente temos 2 fluxos neste projeto - o ping e o pong. Ambos serão abordados abaixo.
 
-O fluxo referente ao PING(indicado com a cor amarela) é p fluxo inicial da comunicação. É a partir dele que toda a comunição com começará. Então, as seguintes etapas serão feitas:
+O fluxo referente ao PING(indicado com a cor amarela) é p fluxo inicial da comunicação. É a partir dele que toda a comunição começará. Então, as seguintes etapas serão feitas:
 
 - 1º - Leitura do ID da tag RFID;
 
